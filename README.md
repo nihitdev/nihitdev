@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=24&amp;duration=2500&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=Hey%2C+I%27m+Nihit.;Rust+%7C+Python+%7C+Linux+%7C+Developer+Tools;Build.+Ship.+Learn.+Repeat." alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=25&amp;duration=2500&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=nihitdev+%7C+Rust+%7C+Python+%7C+Linux;Developer+Tools+%7C+Terminal+Apps+%7C+Open+Source;Build.+Ship.+Learn.+Repeat." alt="Nihit developer introduction">
 
 <br><br>
 
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/crates/v/yoo?style=for-the-badge&amp;logo=rust&amp;label=yoo%20on%20crates.io" alt="yoo on crates.io">
 </a>
 <a href="https://discord.com/users/1518630007323361393">
-  <img src="https://img.shields.io/badge/Discord-1518630007323361393-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord">
+  <img src="https://img.shields.io/badge/Discord-nihitdev-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord">
 </a>
 
 <br><br>
@@ -24,32 +24,30 @@
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="58%" valign="top">
 
 ## Hey there, I'm Nihit. 👋
 
 ```text
 Rust developer building developer tools,
-terminal software, and things that are fun to ship.
+terminal software, and things worth shipping.
 ```
 
 * 🦀 Building with Rust
-* 🐍 Learning and using Python
-* 🐧 Exploring Linux and developer tooling
-* ⚙️ Interested in CLI apps, systems programming, and open source
+* 🐍 Learning Python and scripting
+* 🐧 Exploring Linux, terminals, and developer tooling
+* ⚙️ Interested in systems programming and open source
 * 🚀 Currently shipping: `yoo v0.4.0`
 
 </td>
 
-<td width="40%" align="center">
+<td width="42%" align="center">
 
-<a href="https://github.com/nihitdev/yo-cli">
-  <img src="https://raw.githubusercontent.com/nihitdev/yo-cli/main/docs/images/fetch.png" width="360" alt="yoo fetch screenshot">
-</a>
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa20zMmttdnhwbWJ2MHgyeDhlNDE5NXUzY3Y1eTYzdHB5bDNmdXQxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" width="320" alt="Coding cat">
 
-<br>
+<br><br>
 
-<sub><code>yoo fetch</code> — developer-aware environment information</sub>
+<sub><code>currently building cool things...</code></sub>
 
 </td>
 </tr>
@@ -71,7 +69,7 @@ terminal software, and things that are fun to ship.
 
 ## `featured projects`
 
-| Project                                                                  | Description                                                                                 | Tech                         |
+| Project                                                                  | Description                                                                                 | Stack                        |
 | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :--------------------------- |
 | [**yoo**](https://github.com/nihitdev/yo-cli)                            | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`. | Rust · YAML · GitHub Actions |
 | [**Oxide Terminal Emulator**](https://github.com/nihitdev/rust_terminal) | A terminal emulator project focused on async Rust and PTY handling.                         | Rust · Tokio · Crossterm     |
@@ -120,9 +118,9 @@ yoo fetch
 
 ```text
 [✓] yoo published on crates.io
-[✓] GitHub release pipeline
+[✓] GitHub releases and version tags
 [✓] Scoop distribution
-[✓] CI, tests, docs, screenshots
+[✓] CI, tests, docs, and screenshots
 [~] WinGet package under Microsoft review
 
 status: building cool things
