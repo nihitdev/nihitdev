@@ -1,126 +1,139 @@
 <div align="center">
 
-```text
-nihit@github:~$ whoami
-Nihit — Rust developer building developer tools and terminal software.
-```
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=24&amp;duration=2500&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=Hey%2C+I%27m+Nihit.;Rust+%7C+Python+%7C+Linux+%7C+Developer+Tools;Build.+Ship.+Learn.+Repeat." alt="Typing SVG">
+
+<br><br>
 
 <a href="https://nihitdev.github.io">
-  <img src="https://img.shields.io/badge/Portfolio-visit-0d1117?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-nihitdev.github.io-0D1117?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio">
 </a>
 <a href="https://crates.io/crates/yoo">
-  <img src="https://img.shields.io/crates/v/yoo?style=for-the-badge&logo=rust&label=yoo%20on%20crates.io" alt="yoo on crates.io">
+  <img src="https://img.shields.io/crates/v/yoo?style=for-the-badge&amp;logo=rust&amp;label=yoo%20on%20crates.io" alt="yoo on crates.io">
 </a>
-<a href="https://github.com/nihitdev/yo-cli/releases">
-  <img src="https://img.shields.io/github/v/release/nihitdev/yo-cli?display_name=tag&style=for-the-badge&label=latest%20release" alt="Latest yoo release">
+<a href="https://discord.com/users/1518630007323361393">
+  <img src="https://img.shields.io/badge/Discord-1518630007323361393-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord">
 </a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=nihitdev&amp;label=profile%20views&amp;color=58A6FF&amp;style=flat-square" alt="Profile views">
 
 </div>
 
 ---
 
-## `about`
+<table>
+<tr>
+<td width="60%" valign="top">
+
+## Hey there, I'm Nihit. 👋
 
 ```text
-> Rust developer
-> Building CLI tools, terminal applications, and useful developer software
-> Interested in systems programming, async Rust, and open source
-> Currently shipping: yoo v0.4.0
+Rust developer building developer tools,
+terminal software, and things that are fun to ship.
 ```
+
+* 🦀 Building with Rust
+* 🐍 Learning and using Python
+* 🐧 Exploring Linux and developer tooling
+* ⚙️ Interested in CLI apps, systems programming, and open source
+* 🚀 Currently shipping: `yoo v0.4.0`
+
+</td>
+
+<td width="40%" align="center">
+
+<a href="https://github.com/nihitdev/yo-cli">
+  <img src="https://raw.githubusercontent.com/nihitdev/yo-cli/main/docs/images/fetch.png" width="360" alt="yoo fetch screenshot">
+</a>
+
+<br>
+
+<sub><code>yoo fetch</code> — developer-aware environment information</sub>
+
+</td>
+</tr>
+</table>
+
+## `toolbox`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&amp;logo=python&amp;logoColor=3776AB" alt="Python">
+<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&amp;logo=linux&amp;logoColor=FCC624" alt="Linux">
+<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&amp;logo=powershell&amp;logoColor=5391FE" alt="PowerShell">
+<img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code">
+
+</div>
 
 ## `featured projects`
 
-| Project                                                                  | What it is                                                                                                   | Stack                        |
-| :----------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------- |
-| [**yoo**](https://github.com/nihitdev/yo-cli)                            | A developer companion CLI with environment checks, project detection, tips, themes, timers, and JSON output. | Rust · YAML · GitHub Actions |
-| [**Oxide Terminal Emulator**](https://github.com/nihitdev/rust_terminal) | A cross-platform terminal emulator experiment focused on async Rust and PTY handling.                        | Rust · Tokio · Crossterm     |
-| [**Portfolio**](https://nihitdev.github.io)                              | My personal developer site and project hub.                                                                  | HTML · CSS · JavaScript      |
+| Project                                                                  | Description                                                                                 | Tech                         |
+| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :--------------------------- |
+| [**yoo**](https://github.com/nihitdev/yo-cli)                            | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`. | Rust · YAML · GitHub Actions |
+| [**Oxide Terminal Emulator**](https://github.com/nihitdev/rust_terminal) | A terminal emulator project focused on async Rust and PTY handling.                         | Rust · Tokio · Crossterm     |
+| [**Portfolio**](https://nihitdev.github.io)                              | My personal developer site and project hub.                                                 | HTML · CSS · JavaScript      |
+| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev)         | My Scoop bucket for distributing software on Windows.                                       | Scoop · PowerShell           |
 
-## `yoo`
+## `yoo release status`
 
 <div align="center">
 
 <a href="https://crates.io/crates/yoo">
-  <img src="https://img.shields.io/crates/d/yoo?style=flat-square&label=crates.io%20downloads" alt="Crates.io downloads">
+  <img src="https://img.shields.io/crates/d/yoo?style=flat-square&amp;label=crates.io%20downloads" alt="Crates downloads">
+</a>
+<a href="https://github.com/nihitdev/yo-cli/releases">
+  <img src="https://img.shields.io/github/v/release/nihitdev/yo-cli?style=flat-square&amp;label=latest%20release" alt="Latest release">
 </a>
 <a href="https://github.com/nihitdev/yo-cli/actions/workflows/ci.yml">
-  <img src="https://github.com/nihitdev/yo-cli/actions/workflows/ci.yml/badge.svg" alt="yoo CI status">
+  <img src="https://github.com/nihitdev/yo-cli/actions/workflows/ci.yml/badge.svg" alt="yoo CI">
 </a>
 <a href="https://github.com/nihitdev/yo-cli/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/nihitdev/yo-cli?style=flat-square" alt="yoo license">
-</a>
-<a href="https://github.com/nihitdev/yo-cli">
-  <img src="https://img.shields.io/github/stars/nihitdev/yo-cli?style=flat-square&label=stars" alt="yoo stars">
+  <img src="https://img.shields.io/github/license/nihitdev/yo-cli?style=flat-square" alt="GPL license">
 </a>
 
 </div>
-
-```text
-$ yoo fetch
-
-Developer environment + current-project information
-Rust · Cargo · Git · OS · Terminal · Project type · Git status
-```
-
-Install it:
 
 ```powershell
 cargo install yoo
 
 scoop bucket add nihitdev https://github.com/nihitdev/scoop-nihitdev
 scoop install yoo
+
+yoo fetch
 ```
-
-## `toolbox`
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-<img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=powershell&logoColor=5391FE" alt="PowerShell">
-<img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
-
-</div>
 
 ## `github activity`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Nihit's GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nihitdev&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;icon_color=58A6FF" alt="GitHub stats">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Most used languages">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9" alt="Top languages">
 
 </div>
 
-## `release log`
+## `build log`
 
 ```text
 [✓] yoo published on crates.io
-[✓] GitHub Releases for yoo
-[✓] Scoop bucket: scoop-nihitdev
-[✓] CI, tests, documentation, and release workflow
-[~] WinGet package submitted to Microsoft
+[✓] GitHub release pipeline
+[✓] Scoop distribution
+[✓] CI, tests, docs, screenshots
+[~] WinGet package under Microsoft review
+
+status: building cool things
 ```
-
-## `links`
-
-```text
-Portfolio  →  https://nihitdev.github.io
-GitHub     →  https://github.com/nihitdev
-Crates.io  →  https://crates.io/crates/yoo
-Scoop      →  https://github.com/nihitdev/scoop-nihitdev
-Email      →  nihit429@gmail.com
-```
-
----
 
 <div align="center">
 
 ```text
-$ git status
+nihit@github:~$ git status
 On branch main
-building cool things.
+nothing to commit, building more.
 ```
 
 </div>
