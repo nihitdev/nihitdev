@@ -17,12 +17,7 @@
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=nihitdev&amp;label=profile%20views&amp;color=58A6FF&amp;style=flat-square" alt="Profile views">
-<a href="https://github.com/nihitdev?tab=followers">
-  <img src="https://img.shields.io/github/followers/nihitdev?style=flat-square&amp;logo=github&amp;label=followers&amp;color=58A6FF" alt="GitHub followers">
-</a>
-<a href="https://github.com/nihitdev?tab=repositories">
-  <img src="https://img.shields.io/github/stars/nihitdev?affiliations=OWNER&amp;style=flat-square&amp;logo=github&amp;label=total%20stars&amp;color=58A6FF" alt="Total GitHub stars">
-</a>
+
 
 </div>
 
