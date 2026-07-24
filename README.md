@@ -5,7 +5,7 @@
 <br><br>
 
 <a href="https://nihit.is-a.dev">
-  <img src="https://img.shields.io/badge/Portfolio-nihit.is-a.dev-0D1117?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-nihit.is--a.dev-0D1117?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio">
 </a>
 <a href="https://crates.io/crates/yoo">
   <img src="https://img.shields.io/crates/v/yoo?style=for-the-badge&amp;logo=rust&amp;label=yoo%20on%20crates.io" alt="yoo on crates.io">
