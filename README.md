@@ -65,6 +65,8 @@ terminal software, and things worth shipping.
 <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&amp;logo=css&amp;logoColor=663399" alt="CSS3">
 <img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS">
 <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&amp;logo=linux&amp;logoColor=FCC624" alt="Linux">
+<img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&amp;logo=gnubash&amp;logoColor=4EAA25" alt="Bash">
+<img src="https://img.shields.io/badge/JetBrains-0D1117?style=for-the-badge&amp;logo=jetbrains&amp;logoColor=white" alt="JetBrains">
 <img src="https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&amp;logo=windows11&amp;logoColor=0078D4" alt="Windows">
 <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git">
 <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub">
