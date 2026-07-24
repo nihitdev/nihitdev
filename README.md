@@ -17,6 +17,12 @@
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=nihitdev&amp;label=profile%20views&amp;color=58A6FF&amp;style=flat-square" alt="Profile views">
+<a href="https://github.com/nihitdev?tab=followers">
+  <img src="https://img.shields.io/github/followers/nihitdev?style=flat-square&amp;logo=github&amp;label=followers&amp;color=58A6FF" alt="GitHub followers">
+</a>
+<a href="https://github.com/nihitdev?tab=repositories">
+  <img src="https://img.shields.io/github/stars/nihitdev?affiliations=OWNER&amp;style=flat-square&amp;logo=github&amp;label=total%20stars&amp;color=58A6FF" alt="Total GitHub stars">
+</a>
 
 </div>
 
@@ -59,9 +65,16 @@ terminal software, and things worth shipping.
 
 <img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust">
 <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&amp;logo=python&amp;logoColor=3776AB" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript">
+<img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&amp;logo=css&amp;logoColor=663399" alt="CSS3">
+<img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS">
 <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&amp;logo=linux&amp;logoColor=FCC624" alt="Linux">
+<img src="https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&amp;logo=windows11&amp;logoColor=0078D4" alt="Windows">
 <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git">
 <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/Cargo-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=CE422B" alt="Cargo">
+<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&amp;logo=githubactions&amp;logoColor=2088FF" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&amp;logo=powershell&amp;logoColor=5391FE" alt="PowerShell">
 <img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code">
 
@@ -73,7 +86,7 @@ terminal software, and things worth shipping.
 | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :--------------------------- |
 | [**yoo**](https://github.com/nihitdev/yo-cli)                            | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`. | Rust · YAML · GitHub Actions |
 | [**Oxide Terminal Emulator**](https://github.com/nihitdev/rust_terminal) | A terminal emulator project focused on async Rust and PTY handling.                         | Rust · Tokio · Crossterm     |
-| [**Portfolio**](https://nihitdev.github.io)                              | My personal developer site and project hub.                                                 | HTML · CSS · JavaScript      |
+| [**Portfolio**](https://nihit.is-a.dev)                                  | My personal developer site and project hub.                                                 | React · Vite · Tailwind CSS   |
 | [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev)         | My Scoop bucket for distributing software on Windows.                                       | Scoop · PowerShell           |
 
 ## `yoo release status`
