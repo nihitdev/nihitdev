@@ -73,18 +73,19 @@ terminal software, and things worth shipping.
 <img src="https://img.shields.io/badge/Cargo-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=CE422B" alt="Cargo">
 <img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&amp;logo=githubactions&amp;logoColor=2088FF" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&amp;logo=powershell&amp;logoColor=5391FE" alt="PowerShell">
+<img src="https://img.shields.io/badge/Nushell-0D1117?style=for-the-badge&amp;logo=nushell&amp;logoColor=white" alt="Nushell">
 <img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code">
 
 </div>
 
 ## `featured projects`
 
-| Project                                                                  | Description                                                                                 | Stack                        |
-| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :--------------------------- |
-| [**yoo**](https://github.com/nihitdev/yo-cli)                            | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`. | Rust · YAML · GitHub Actions |
-| [**Oxide Terminal Emulator**](https://github.com/nihitdev/rust_terminal) | A terminal emulator project focused on async Rust and PTY handling.                         | Rust · Tokio · Crossterm     |
-| [**Portfolio**](https://nihit.is-a.dev)                                  | My personal developer site and project hub.                                                 | React · Vite · Tailwind CSS   |
-| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev)         | My Scoop bucket for distributing software on Windows.                                       | Scoop · PowerShell           |
+| Project                                                          | Description                                                                                                             | Stack                                                    |
+| :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- |
+| [**yoo**](https://github.com/nihitdev/yo-cli)                    | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`.                             | Rust · YAML · GitHub Actions                             |
+| [**dotfiles**](https://github.com/nihitdev/dotfiles)             | A collection of configuration files for the tools I use every day.                                                      | CSS 87.6% · PowerShell 7.5% · Nushell 4.1% · Shell 0.8% |
+| [**shellcord**](https://github.com/nihitdev/shellcord)           | A shell-inspired Discord theme with modular customization, Catppuccin colors, and a clean terminal aesthetic.           | CSS · Discord · Catppuccin                               |
+| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev) | My Scoop bucket for distributing software on Windows.                                                                   | Scoop · PowerShell                                       |
 
 ## `yoo release status`
 
