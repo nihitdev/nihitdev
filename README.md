@@ -38,7 +38,7 @@ terminal software, and things worth shipping.
 * 🐍 Learning Python and scripting
 * 🐧 Exploring Linux, terminals, and developer tooling
 * ⚙️ Interested in systems programming and open source
-* 🚀 Currently shipping: `yoo v0.4.0`
+* 🚀 Currently shipping: `yoo v0.9.0`
 
 </td>
 
@@ -82,7 +82,7 @@ terminal software, and things worth shipping.
 
 | Project                                                          | Description                                                                                                             | Stack                                                    |
 | :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- |
-| [**yoo**](https://github.com/nihitdev/yo-cli)                    | A developer companion CLI with themes, tips, project checks, timers, `doctor`, and `fetch`.                             | Rust · YAML · GitHub Actions                             |
+| [**yo-cli**](https://github.com/nihitdev/yo-cli)                 | A tiny developer companion for better coding sessions.                                                                 | Rust · YAML · GitHub Actions                             |
 | [**dotfiles**](https://github.com/nihitdev/dotfiles)             | A collection of configuration files for the tools I use every day.                                                      | CSS · PowerShell · Nushell · Shell                      |
 | [**shellcord**](https://github.com/nihitdev/shellcord)           | A shell-inspired Discord theme with modular customization, Catppuccin colors, and a clean terminal aesthetic.           | CSS · Discord · Catppuccin                               |
 | [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev) | My Scoop bucket for distributing software on Windows.                                                                   | Scoop · PowerShell                                       |
