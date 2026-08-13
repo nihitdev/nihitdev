@@ -1,148 +1,242 @@
-<div align="center">
+kk<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=25&amp;duration=2500&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=nihitdev+%7C+Rust+%7C+Python+%7C+Linux;Developer+Tools+%7C+Terminal+Apps+%7C+Open+Source;Build.+Ship.+Learn.+Repeat." alt="Nihit developer introduction">
+# `nihitdev`
 
-<br><br>
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Linux+%C2%B7+Terminal+%C2%B7+Shells+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
+  alt="Linux Terminal Shells Dotfiles Developer Tools"
+/>
 
-<a href="https://nihit.is-a.dev">
-  <img src="https://img.shields.io/badge/Portfolio-nihit.is--a.dev-0D1117?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio">
-</a>
-<a href="https://crates.io/crates/yoo">
-  <img src="https://img.shields.io/crates/v/yoo?style=for-the-badge&amp;logo=rust&amp;label=yoo%20on%20crates.io" alt="yoo on crates.io">
-</a>
-<a href="https://discord.com/users/1518630007323361393">
-  <img src="https://img.shields.io/badge/Discord-nihitdev-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord">
-</a>
+<br>
 
-<br><br>
+```text
+╭────────────────────────────────────────────╮
+│  building a terminal setup worth living in │
+╰────────────────────────────────────────────╯
+```
 
-<img src="https://komarev.com/ghpvc/?username=nihitdev&amp;label=profile%20views&amp;color=58A6FF&amp;style=flat-square" alt="Profile views">
-
+<img src="https://komarev.com/ghpvc/?username=nihitdev&label=profile%20views&color=6e40c9&style=flat-square" alt="Profile views">
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
-## Hey there, I'm Nihit. 👋
+## `whoami`
 
 ```text
-Rust developer building developer tools,
-terminal software, and things worth shipping.
+nihit@github
+────────────────────────────────────
+OS        CachyOS
+Shell     Fish / Zsh
+Desktop   KDE Plasma
+Terminal  Konsole
+Prompt    Starship
+Editor    Neovim / Nano
+Focus     Linux · CLI · Dotfiles
+Status    cooking
 ```
 
-* 🦀 Building with Rust
-* 🐍 Learning Python and scripting
-* 🐧 Exploring Linux, terminals, and developer tooling
-* ⚙️ Interested in systems programming and open source
-* 🚀 Currently shipping: `yoo v0.9.0`
+I like building small tools, terminal experiments, configs,
+references, and things that make Linux nicer to use.
 
-</td>
+Most of what you'll find here revolves around:
 
-<td width="42%" align="center">
+- 🐧 Linux
+- 🐟 Fish
+- ζ Zsh
+- ❯ terminal customization
+- ⚙️ dotfiles
+- 🛠️ CLI tooling
+- 🎨 colors, glyphs and prompts
+- 📦 package distribution
+- 🔧 breaking configs and fixing them again
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa20zMmttdnhwbWJ2MHgyeDhlNDE5NXUzY3Y1eTYzdHB5bDNmdXQxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" width="320" alt="Coding cat">
+---
 
-<br><br>
+## `terminal ecosystem`
 
-<sub><code>currently building cool things...</code></sub>
+| Repository | What it does |
+| :--- | :--- |
+| [**dotfiles**](https://github.com/nihitdev/dotfiles) | Configurations for the tools I use every day |
+| [**terminal-playground**](https://github.com/nihitdev/terminal-playground) | Interactive terminal demos for colors, Unicode, spinners, gradients and more |
+| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check) | Check shells, CLI tools and your terminal environment |
+| [**arch-after-install**](https://github.com/nihitdev/arch-after-install) | Practical Arch Linux and CachyOS post-install guide |
+| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners) | Useful Linux commands for everyday terminal work |
+| [**shell-snippets**](https://github.com/nihitdev/shell-snippets) | Fish and Zsh aliases, functions and shell snippets |
+| [**starship-presets**](https://github.com/nihitdev/starship-presets) | Minimal Starship prompt presets |
+| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols) | Symbols and glyphs for terminal prompts |
+| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs) | Curated Nerd Font glyph reference |
+| [**terminal-colors**](https://github.com/nihitdev/terminal-colors) | ANSI, 256-color and truecolor references |
+| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets) | Quick CLI and Linux reference sheets |
 
-</td>
-</tr>
-</table>
+---
 
-## `toolbox`
+## `daily drivers`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust">
-<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&amp;logo=python&amp;logoColor=3776AB" alt="Python">
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript">
-<img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&amp;logo=css&amp;logoColor=663399" alt="CSS3">
-<img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS">
-<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&amp;logo=linux&amp;logoColor=FCC624" alt="Linux">
-<img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&amp;logo=gnubash&amp;logoColor=4EAA25" alt="Bash">
-<img src="https://img.shields.io/badge/JetBrains-0D1117?style=for-the-badge&amp;logo=jetbrains&amp;logoColor=white" alt="JetBrains">
-<img src="https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&amp;logo=windows11&amp;logoColor=0078D4" alt="Windows">
-<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/Cargo-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=CE422B" alt="Cargo">
-<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&amp;logo=githubactions&amp;logoColor=2088FF" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&amp;logo=powershell&amp;logoColor=5391FE" alt="PowerShell">
-<img src="https://img.shields.io/badge/Nushell-0D1117?style=for-the-badge&amp;logo=nushell&amp;logoColor=white" alt="Nushell">
-<img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code">
+<img src="https://img.shields.io/badge/CachyOS-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="CachyOS">
+<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
+<img src="https://img.shields.io/badge/Fish-0D1117?style=for-the-badge&logo=fishshell&logoColor=white" alt="Fish">
+<img src="https://img.shields.io/badge/Zsh-0D1117?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh">
+<img src="https://img.shields.io/badge/KDE_Plasma-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="KDE Plasma">
+<img src="https://img.shields.io/badge/Konsole-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="Konsole">
+<img src="https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143" alt="Neovim">
+<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/Starship-0D1117?style=for-the-badge&logo=starship&logoColor=DD0B78" alt="Starship">
 
 </div>
 
-## `featured projects`
-
-| Project                                                          | Description                                                                                                             | Stack                                                    |
-| :--------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- |
-| [**yo-cli**](https://github.com/nihitdev/yo-cli)                 | A tiny developer companion for better coding sessions.                                                                 | Rust · YAML · GitHub Actions                             |
-| [**dotfiles**](https://github.com/nihitdev/dotfiles)             | A collection of configuration files for the tools I use every day.                                                      | CSS · PowerShell · Nushell · Shell                      |
-| [**shellcord**](https://github.com/nihitdev/shellcord)           | A shell-inspired Discord theme with modular customization, Catppuccin colors, and a clean terminal aesthetic.           | CSS · Discord · Catppuccin                               |
-| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev) | My Scoop bucket for distributing software on Windows.                                                                   | Scoop · PowerShell                                       |
-
-## `yoo release status`
+### `languages & config`
 
 <div align="center">
 
-<a href="https://crates.io/crates/yoo">
-  <img src="https://img.shields.io/crates/d/yoo?style=flat-square&amp;label=crates.io%20downloads" alt="Crates downloads">
-</a>
-<a href="https://github.com/nihitdev/yo-cli/releases">
-  <img src="https://img.shields.io/github/v/release/nihitdev/yo-cli?style=flat-square&amp;label=latest%20release" alt="Latest release">
-</a>
-<a href="https://github.com/nihitdev/yo-cli/actions/workflows/ci.yml">
-  <img src="https://github.com/nihitdev/yo-cli/actions/workflows/ci.yml/badge.svg" alt="yoo CI">
-</a>
-<a href="https://github.com/nihitdev/yo-cli/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/nihitdev/yo-cli?style=flat-square" alt="GPL license">
-</a>
+<img src="https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=00ADD8" alt="Go">
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+<img src="https://img.shields.io/badge/YAML-0D1117?style=flat-square&logo=yaml&logoColor=CB171E" alt="YAML">
+<img src="https://img.shields.io/badge/TOML-0D1117?style=flat-square&logo=toml&logoColor=white" alt="TOML">
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=663399" alt="CSS">
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
 
 </div>
 
-```powershell
-cargo install yoo
+---
 
-scoop bucket add nihitdev https://github.com/nihitdev/scoop-nihitdev
-scoop install yoo
+## `the prompt situation`
 
-yoo fetch
+```text
+~
+ζ
 ```
+
+```text
+~/Projects/dotfiles  main
+λ
+```
+
+```text
+~/Projects/terminal-playground  main
+╰─❯
+```
+
+Choosing one prompt symbol permanently is apparently impossible.
+
+```text
+λ → ζ → ╰─❯ → Ω → ∴ → probably back to λ
+```
+
+---
+
+## `shellcord`
+
+[**shellcord**](https://github.com/nihitdev/shellcord) brings the terminal aesthetic outside the terminal.
+
+```text
+Discord
+   +
+shell-inspired UI
+   +
+Catppuccin
+   +
+custom CSS
+   =
+shellcord
+```
+
+---
+
+## `package stuff`
+
+I also maintain packaging and distribution repositories:
+
+| Repository | Purpose |
+| :--- | :--- |
+| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev) | Scoop bucket |
+| [**aur-yoo-bin**](https://github.com/nihitdev/aur-yoo-bin) | AUR package repository |
+| [**choco-yoo**](https://github.com/nihitdev/choco-yoo) | Chocolatey packaging |
+
+---
+
+## `terminal collection`
+
+```text
+prompt-symbols
+      │
+      ├── symbols & prompt characters
+      │
+terminal-colors
+      │
+      ├── ANSI & truecolor
+      │
+nerd-font-glyphs
+      │
+      ├── Nerd Font references
+      │
+starship-presets
+      │
+      ├── prompt configs
+      │
+shell-snippets
+      │
+      ├── Fish & Zsh
+      │
+linux-one-liners
+      │
+      ├── Linux commands
+      │
+arch-after-install
+      │
+      ├── Arch / CachyOS setup
+      │
+dotfiles-check
+      │
+      ├── environment checker
+      │
+terminal-playground
+      │
+      └── colors · animations · Unicode
+```
+
+---
 
 ## `github activity`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nihitdev&amp;show_icons=true&amp;hide_title=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;icon_color=58A6FF" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7" alt="GitHub stats">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9" alt="Top languages">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9" alt="Top languages">
 
 </div>
 
-## `build log`
+---
+
+## `currently`
 
 ```text
-[✓] yoo published on crates.io
-[✓] GitHub releases and version tags
-[✓] Scoop distribution
-[✓] CI, tests, docs, and screenshots
-[~] WinGet package under Microsoft review
-
-status: building cool things
+[✓] CachyOS
+[✓] KDE Plasma
+[✓] Fish
+[✓] Zsh
+[✓] Starship
+[✓] terminal obsession
+[✓] too many glyphs
+[~] still changing the prompt symbol
 ```
 
 <div align="center">
 
 ```text
-nihit@github:~$ git status
+nihit@cachyos ~/Projects
+╰─❯ git status
+
 On branch main
-nothing to commit, building more.
+nothing to commit, still cooking.
 ```
+
+### `Linux is home. 🐧`
 
 </div>
