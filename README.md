@@ -53,6 +53,50 @@ Most of what you'll find here revolves around:
 
 ---
 
+## `toolbox`
+
+<div align="center">
+
+<!-- Languages -->
+
+<img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go">
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
+
+<!-- Config / Styling -->
+
+<img src="https://img.shields.io/badge/YAML-0D1117?style=for-the-badge&logo=yaml&logoColor=CB171E" alt="YAML">
+<img src="https://img.shields.io/badge/TOML-0D1117?style=for-the-badge&logo=toml&logoColor=white" alt="TOML">
+<img src="https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css&logoColor=663399" alt="CSS">
+
+<!-- Linux -->
+
+<img src="https://img.shields.io/badge/CachyOS-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="CachyOS">
+<img src="https://img.shields.io/badge/Arch_Linux-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="Arch Linux">
+<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
+<img src="https://img.shields.io/badge/KDE_Plasma-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="KDE Plasma">
+
+<!-- Shell / Terminal -->
+
+<img src="https://img.shields.io/badge/Fish-0D1117?style=for-the-badge&logo=fishshell&logoColor=white" alt="Fish">
+<img src="https://img.shields.io/badge/Zsh-0D1117?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh">
+<img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash">
+<img src="https://img.shields.io/badge/Konsole-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="Konsole">
+<img src="https://img.shields.io/badge/Starship-0D1117?style=for-the-badge&logo=starship&logoColor=DD0B78" alt="Starship">
+
+<!-- Development -->
+
+<img src="https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143" alt="Neovim">
+<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker">
+
+</div>
+
+---
+
 ## `terminal ecosystem`
 
 | Repository | What it does |
@@ -68,40 +112,6 @@ Most of what you'll find here revolves around:
 | [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs) | Curated Nerd Font glyph reference |
 | [**terminal-colors**](https://github.com/nihitdev/terminal-colors) | ANSI, 256-color and truecolor references |
 | [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets) | Quick CLI and Linux reference sheets |
-
----
-
-## `daily drivers`
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/CachyOS-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="CachyOS">
-<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
-<img src="https://img.shields.io/badge/Fish-0D1117?style=for-the-badge&logo=fishshell&logoColor=white" alt="Fish">
-<img src="https://img.shields.io/badge/Zsh-0D1117?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh">
-<img src="https://img.shields.io/badge/KDE_Plasma-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="KDE Plasma">
-<img src="https://img.shields.io/badge/Konsole-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="Konsole">
-<img src="https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143" alt="Neovim">
-<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/Starship-0D1117?style=for-the-badge&logo=starship&logoColor=DD0B78" alt="Starship">
-
-</div>
-
-### `languages & config`
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-<img src="https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=00ADD8" alt="Go">
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
-<img src="https://img.shields.io/badge/YAML-0D1117?style=flat-square&logo=yaml&logoColor=CB171E" alt="YAML">
-<img src="https://img.shields.io/badge/TOML-0D1117?style=flat-square&logo=toml&logoColor=white" alt="TOML">
-<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=663399" alt="CSS">
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
-
-</div>
 
 ---
 
@@ -145,18 +155,6 @@ custom CSS
    =
 shellcord
 ```
-
----
-
-## `package stuff`
-
-I also maintain packaging and distribution repositories:
-
-| Repository | Purpose |
-| :--- | :--- |
-| [**scoop-nihitdev**](https://github.com/nihitdev/scoop-nihitdev) | Scoop bucket |
-| [**aur-yoo-bin**](https://github.com/nihitdev/aur-yoo-bin) | AUR package repository |
-| [**choco-yoo**](https://github.com/nihitdev/choco-yoo) | Chocolatey packaging |
 
 ---
 
@@ -206,9 +204,17 @@ terminal-playground
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7" alt="GitHub stats">
+<img
+  height="165"
+  src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7"
+  alt="GitHub stats"
+/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9" alt="Top languages">
+<img
+  height="165"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9"
+  alt="Top languages"
+/>
 
 </div>
 
