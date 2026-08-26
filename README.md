@@ -3,8 +3,8 @@
 # `nihitdev`
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Arch+Linux+%C2%B7+Hyprland+%C2%B7+Terminal+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
-alt="Arch Linux Hyprland Terminal Dotfiles Developer Tools"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Arch+Linux+%C2%B7+Hyprland+%C2%B7+Terminal+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
+  alt="Arch Linux Hyprland Terminal Dotfiles Developer Tools"
 />
 
 <br>
@@ -38,20 +38,20 @@ Status    cooking
 ```
 
 I like building small tools, terminal experiments, configs,
-references, developer environments, and things that make Linux nicer to use.
+developer environments, and things that make Linux nicer to use.
 
 Most of what you'll find here revolves around:
 
-* 🐧 Arch Linux
-* 🪟 Hyprland
-* 🐟 Fish
-* ❯ terminal customization
-* ⚙️ dotfiles
-* 🛠️ CLI tooling
-* 🎨 colors, glyphs and prompts
-* 📦 package management
-* 🦭 containers with Podman
-* 🔧 breaking configs and fixing them again
+- 🐧 Arch Linux
+- 🪟 Hyprland
+- 🐟 Fish
+- ❯ terminal customization
+- ⚙️ dotfiles
+- 🛠️ CLI tooling
+- 🎨 colors, glyphs and prompts
+- 📦 package management
+- 🦭 rootless containers with Podman
+- 🔧 breaking configs and fixing them again
 
 ---
 
@@ -102,19 +102,19 @@ Most of what you'll find here revolves around:
 
 ## `terminal ecosystem`
 
-| Repository                                                                 | What it does                                                                 |
-| :------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [**dotfiles**](https://github.com/nihitdev/dotfiles)                       | Configurations for the tools I use every day                                 |
+| Repository | What it does |
+| :--- | :--- |
+| [**dotfiles**](https://github.com/nihitdev/dotfiles) | Configurations for the tools I use every day |
 | [**terminal-playground**](https://github.com/nihitdev/terminal-playground) | Interactive terminal demos for colors, Unicode, spinners, gradients and more |
-| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check)           | Check shells, CLI tools and your terminal environment                        |
-| [**arch-after-install**](https://github.com/nihitdev/arch-after-install)   | Practical Arch Linux post-install guide                                      |
-| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners)       | Useful Linux commands for everyday terminal work                             |
-| [**shell-snippets**](https://github.com/nihitdev/shell-snippets)           | Fish aliases, functions and shell snippets                                   |
-| [**starship-presets**](https://github.com/nihitdev/starship-presets)       | Minimal Starship prompt presets                                              |
-| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols)           | Symbols and glyphs for terminal prompts                                      |
-| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs)       | Curated Nerd Font glyph reference                                            |
-| [**terminal-colors**](https://github.com/nihitdev/terminal-colors)         | ANSI, 256-color and truecolor references                                     |
-| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets)         | Quick CLI and Linux reference sheets                                         |
+| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check) | Check shells, CLI tools and your terminal environment |
+| [**arch-after-install**](https://github.com/nihitdev/arch-after-install) | Practical Arch Linux post-install guide |
+| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners) | Useful Linux commands for everyday terminal work |
+| [**shell-snippets**](https://github.com/nihitdev/shell-snippets) | Fish aliases, functions and shell snippets |
+| [**starship-presets**](https://github.com/nihitdev/starship-presets) | Minimal Starship prompt presets |
+| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols) | Symbols and glyphs for terminal prompts |
+| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs) | Curated Nerd Font glyph reference |
+| [**terminal-colors**](https://github.com/nihitdev/terminal-colors) | ANSI, 256-color and truecolor references |
+| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets) | Quick CLI and Linux reference sheets |
 
 ---
 
@@ -127,7 +127,7 @@ Arch Linux
     │     └── Wayland compositor
     │
     ├── Caelestia
-    │     └── shell + desktop integration
+    │     └── desktop shell
     │
     ├── Kitty
     │     └── terminal
@@ -270,20 +270,34 @@ terminal-playground
 
 ---
 
-## `github activity`
+## `git log`
+
+```text
+commit 7f3a2c1
+Author: nihitdev
+Status: still cooking
+
+    building tools
+    breaking configs
+    fixing configs
+    ricing Arch
+    repeating indefinitely
+```
+
+```text
+$ git status --short
+
+ M dotfiles
+ M terminal
+ M sanity
+?? another-side-project/
+```
 
 <div align="center">
 
 <img
-height="165"
-src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7"
-alt="GitHub stats"
-/>
-
-<img
-height="165"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9"
-alt="Top languages"
+  src="https://github-readme-streak-stats.herokuapp.com/?user=nihitdev&hide_border=true&background=0D1117&stroke=30363D&ring=A371F7&fire=A371F7&currStreakLabel=A371F7&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E"
+  alt="GitHub streak"
 />
 
 </div>
