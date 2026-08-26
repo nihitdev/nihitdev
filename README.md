@@ -3,15 +3,15 @@
 # `nihitdev`
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Linux+%C2%B7+Terminal+%C2%B7+Shells+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
-  alt="Linux Terminal Shells Dotfiles Developer Tools"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Arch+Linux+%C2%B7+Hyprland+%C2%B7+Terminal+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
+alt="Arch Linux Hyprland Terminal Dotfiles Developer Tools"
 />
 
 <br>
 
 ```text
 ╭────────────────────────────────────────────╮
-│  building a terminal setup worth living in │
+│  building a linux setup worth living in    │
 ╰────────────────────────────────────────────╯
 ```
 
@@ -26,30 +26,32 @@
 ```text
 nihit@github
 ────────────────────────────────────
-OS        CachyOS
-Shell     Fish / Zsh
-Desktop   KDE Plasma
-Terminal  Konsole
+OS        Arch Linux
+WM        Hyprland
+Shell     Fish
+Terminal  Kitty
 Prompt    Starship
-Editor    Neovim / Nano
-Focus     Linux · CLI · Dotfiles
+Editor    Neovim / VS Code
+Runtime   Podman
+Focus     Linux · CLI · Dotfiles · Dev Tools
 Status    cooking
 ```
 
 I like building small tools, terminal experiments, configs,
-references, and things that make Linux nicer to use.
+references, developer environments, and things that make Linux nicer to use.
 
 Most of what you'll find here revolves around:
 
-- 🐧 Linux
-- 🐟 Fish
-- ζ Zsh
-- ❯ terminal customization
-- ⚙️ dotfiles
-- 🛠️ CLI tooling
-- 🎨 colors, glyphs and prompts
-- 📦 package distribution
-- 🔧 breaking configs and fixing them again
+* 🐧 Arch Linux
+* 🪟 Hyprland
+* 🐟 Fish
+* ❯ terminal customization
+* ⚙️ dotfiles
+* 🛠️ CLI tooling
+* 🎨 colors, glyphs and prompts
+* 📦 package management
+* 🦭 containers with Podman
+* 🔧 breaking configs and fixing them again
 
 ---
 
@@ -72,26 +74,27 @@ Most of what you'll find here revolves around:
 
 <!-- Linux -->
 
-<img src="https://img.shields.io/badge/CachyOS-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="CachyOS">
 <img src="https://img.shields.io/badge/Arch_Linux-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="Arch Linux">
 <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
-<img src="https://img.shields.io/badge/KDE_Plasma-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="KDE Plasma">
+<img src="https://img.shields.io/badge/Hyprland-0D1117?style=for-the-badge&logo=hyprland&logoColor=58E1FF" alt="Hyprland">
 
 <!-- Shell / Terminal -->
 
 <img src="https://img.shields.io/badge/Fish-0D1117?style=for-the-badge&logo=fishshell&logoColor=white" alt="Fish">
-<img src="https://img.shields.io/badge/Zsh-0D1117?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh">
 <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash">
-<img src="https://img.shields.io/badge/Konsole-0D1117?style=for-the-badge&logo=kde&logoColor=1D99F3" alt="Konsole">
+<img src="https://img.shields.io/badge/Kitty-0D1117?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Kitty">
 <img src="https://img.shields.io/badge/Starship-0D1117?style=for-the-badge&logo=starship&logoColor=DD0B78" alt="Starship">
 
 <!-- Development -->
 
 <img src="https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143" alt="Neovim">
+<img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
 <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
 <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 <img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker">
+<img src="https://img.shields.io/badge/Podman-0D1117?style=for-the-badge&logo=podman&logoColor=892CA0" alt="Podman">
+<img src="https://img.shields.io/badge/Bun-0D1117?style=for-the-badge&logo=bun&logoColor=FBF0DF" alt="Bun">
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
 
 </div>
 
@@ -99,19 +102,86 @@ Most of what you'll find here revolves around:
 
 ## `terminal ecosystem`
 
-| Repository | What it does |
-| :--- | :--- |
-| [**dotfiles**](https://github.com/nihitdev/dotfiles) | Configurations for the tools I use every day |
+| Repository                                                                 | What it does                                                                 |
+| :------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| [**dotfiles**](https://github.com/nihitdev/dotfiles)                       | Configurations for the tools I use every day                                 |
 | [**terminal-playground**](https://github.com/nihitdev/terminal-playground) | Interactive terminal demos for colors, Unicode, spinners, gradients and more |
-| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check) | Check shells, CLI tools and your terminal environment |
-| [**arch-after-install**](https://github.com/nihitdev/arch-after-install) | Practical Arch Linux and CachyOS post-install guide |
-| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners) | Useful Linux commands for everyday terminal work |
-| [**shell-snippets**](https://github.com/nihitdev/shell-snippets) | Fish and Zsh aliases, functions and shell snippets |
-| [**starship-presets**](https://github.com/nihitdev/starship-presets) | Minimal Starship prompt presets |
-| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols) | Symbols and glyphs for terminal prompts |
-| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs) | Curated Nerd Font glyph reference |
-| [**terminal-colors**](https://github.com/nihitdev/terminal-colors) | ANSI, 256-color and truecolor references |
-| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets) | Quick CLI and Linux reference sheets |
+| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check)           | Check shells, CLI tools and your terminal environment                        |
+| [**arch-after-install**](https://github.com/nihitdev/arch-after-install)   | Practical Arch Linux post-install guide                                      |
+| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners)       | Useful Linux commands for everyday terminal work                             |
+| [**shell-snippets**](https://github.com/nihitdev/shell-snippets)           | Fish aliases, functions and shell snippets                                   |
+| [**starship-presets**](https://github.com/nihitdev/starship-presets)       | Minimal Starship prompt presets                                              |
+| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols)           | Symbols and glyphs for terminal prompts                                      |
+| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs)       | Curated Nerd Font glyph reference                                            |
+| [**terminal-colors**](https://github.com/nihitdev/terminal-colors)         | ANSI, 256-color and truecolor references                                     |
+| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets)         | Quick CLI and Linux reference sheets                                         |
+
+---
+
+## `current setup`
+
+```text
+Arch Linux
+    │
+    ├── Hyprland
+    │     └── Wayland compositor
+    │
+    ├── Caelestia
+    │     └── shell + desktop integration
+    │
+    ├── Kitty
+    │     └── terminal
+    │
+    ├── Fish
+    │     └── interactive shell
+    │
+    ├── Starship
+    │     └── prompt
+    │
+    ├── Neovim / VS Code
+    │     └── editors
+    │
+    └── Podman
+          └── rootless containers
+```
+
+---
+
+## `dev stack`
+
+```text
+Languages
+├── Rust
+├── Go
+├── JavaScript
+├── TypeScript
+├── Python
+└── C / C++
+
+JavaScript runtimes
+├── Node.js
+├── Bun
+└── Deno
+
+Package managers
+├── pacman
+├── paru
+├── yay
+├── npm
+├── pnpm
+├── cargo
+└── uv
+
+Build tools
+├── CMake
+├── Meson
+├── Ninja
+├── Make
+└── just
+
+Containers
+└── Podman 🦭
+```
 
 ---
 
@@ -119,7 +189,7 @@ Most of what you'll find here revolves around:
 
 ```text
 ~
-ζ
+λ
 ```
 
 ```text
@@ -179,7 +249,7 @@ starship-presets
       │
 shell-snippets
       │
-      ├── Fish & Zsh
+      ├── Fish
       │
 linux-one-liners
       │
@@ -187,7 +257,7 @@ linux-one-liners
       │
 arch-after-install
       │
-      ├── Arch / CachyOS setup
+      ├── Arch Linux setup
       │
 dotfiles-check
       │
@@ -205,15 +275,15 @@ terminal-playground
 <div align="center">
 
 <img
-  height="165"
-  src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7"
-  alt="GitHub stats"
+height="165"
+src="https://github-readme-stats.vercel.app/api?username=nihitdev&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9&icon_color=A371F7"
+alt="GitHub stats"
 />
 
 <img
-  height="165"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9"
-  alt="Top languages"
+height="165"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihitdev&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=C9D1D9"
+alt="Top languages"
 />
 
 </div>
@@ -223,11 +293,16 @@ terminal-playground
 ## `currently`
 
 ```text
-[✓] CachyOS
-[✓] KDE Plasma
+[✓] Arch Linux
+[✓] Hyprland
+[✓] Caelestia
+[✓] Kitty
 [✓] Fish
-[✓] Zsh
 [✓] Starship
+[✓] Podman
+[✓] Rust
+[✓] Go
+[✓] Bun
 [✓] terminal obsession
 [✓] too many glyphs
 [~] still changing the prompt symbol
@@ -236,13 +311,13 @@ terminal-playground
 <div align="center">
 
 ```text
-nihit@cachyos ~/Projects
-╰─❯ git status
+nihit@arch ~/Projects
+λ git status
 
 On branch main
 nothing to commit, still cooking.
 ```
 
-### `Linux is home. 🐧`
+### `Arch btw. 🐧`
 
 </div>
