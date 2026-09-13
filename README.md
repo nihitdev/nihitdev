@@ -1,337 +1,76 @@
+
 <div align="center">
 
 # `nihitdev`
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=900&color=A371F7&center=true&vCenter=true&width=900&lines=Arch+Linux+%C2%B7+Hyprland+%C2%B7+Terminal+%C2%B7+Dotfiles+%C2%B7+Developer+Tools"
-  alt="Arch Linux Hyprland Terminal Dotfiles Developer Tools"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=800&color=A371F7&center=true&vCenter=true&width=850&lines=building+from+~%2F.config+outward;Linux+%C2%B7+CLI+%C2%B7+Dotfiles+%C2%B7+Developer+Tools;probably+editing+a+config+file"
+alt="nihitdev"
 />
 
-<br>
-
 ```text
-╭────────────────────────────────────────────╮
-│  building a linux setup worth living in    │
-╰────────────────────────────────────────────╯
+┌─────────────────────────────────────────────────────┐
+│  linux · terminals · tools · questionable configs  │
+└─────────────────────────────────────────────────────┘
 ```
 
-<img src="https://komarev.com/ghpvc/?username=nihitdev&label=profile%20views&color=6e40c9&style=flat-square" alt="Profile views">
+<img src="https://komarev.com/ghpvc/?username=nihitdev&label=visitors&color=6e40c9&style=flat-square" alt="Profile views">
 
 </div>
 
 ---
 
-## `whoami`
+## `$ whoami`
 
 ```text
-nihit@github
-────────────────────────────────────
+nihit@arch
+──────────────────────────────────────
 OS        Arch Linux
 WM        Hyprland
 Shell     Fish
 Terminal  Kitty
 Prompt    Starship
-Editor    Neovim / VS Code
+Editors   Neovim · VS Code
 Runtime   Podman
-Focus     Linux · CLI · Dotfiles · Dev Tools
-Status    cooking
+Languages Rust · Go · TypeScript · JavaScript
+Status    still cooking
 ```
 
-I like building small tools, terminal experiments, configs,
-developer environments, and things that make Linux nicer to use.
+I build developer tools, terminal experiments and Linux setups.
 
-Most of what you'll find here revolves around:
-
-- 🐧 Arch Linux
-- 🪟 Hyprland
-- 🐟 Fish
-- ❯ terminal customization
-- ⚙️ dotfiles
-- 🛠️ CLI tooling
-- 🎨 colors, glyphs and prompts
-- 📦 package management
-- 🦭 rootless containers with Podman
-- 🔧 breaking configs and fixing them again
+A suspicious amount of my free time disappears into `~/.config`.
 
 ---
 
-## `toolbox`
+## `$ ls projects/`
+
+| project                                                                    | description                                                     |
+| :------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| **[yo-cli](https://github.com/nihitdev/yo-cli)**                           | CLI tooling built for speed, convenience and terminal people    |
+| **[dotfiles](https://github.com/nihitdev/dotfiles)**                       | The configs behind my Linux setup                               |
+| **[terminal-playground](https://github.com/nihitdev/terminal-playground)** | Colors, Unicode, gradients, animations and terminal experiments |
+| **[dotfiles-check](https://github.com/nihitdev/dotfiles-check)**           | Inspect shells, CLI tools and terminal environments             |
+| **[shellcord](https://github.com/nihitdev/shellcord)**                     | Discord, except someone gave the terminal CSS                   |
+| **[arch-after-install](https://github.com/nihitdev/arch-after-install)**   | Practical Arch Linux post-install setup                         |
+
+```text
+~/Projects
+├── yo-cli/
+├── dotfiles/
+├── terminal-playground/
+├── dotfiles-check/
+├── shellcord/
+└── probably-another-side-project/
+```
+
+---
+
+## `$ cat stack`
 
 <div align="center">
 
-<!-- Languages -->
-
-<img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-<img src="https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go">
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
-
-<!-- Config / Styling -->
-
-<img src="https://img.shields.io/badge/YAML-0D1117?style=for-the-badge&logo=yaml&logoColor=CB171E" alt="YAML">
-<img src="https://img.shields.io/badge/TOML-0D1117?style=for-the-badge&logo=toml&logoColor=white" alt="TOML">
-<img src="https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css&logoColor=663399" alt="CSS">
-
-<!-- Linux -->
-
-<img src="https://img.shields.io/badge/Arch_Linux-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1" alt="Arch Linux">
-<img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
-<img src="https://img.shields.io/badge/Hyprland-0D1117?style=for-the-badge&logo=hyprland&logoColor=58E1FF" alt="Hyprland">
-
-<!-- Shell / Terminal -->
-
-<img src="https://img.shields.io/badge/Fish-0D1117?style=for-the-badge&logo=fishshell&logoColor=white" alt="Fish">
-<img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash">
-<img src="https://img.shields.io/badge/Kitty-0D1117?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Kitty">
-<img src="https://img.shields.io/badge/Starship-0D1117?style=for-the-badge&logo=starship&logoColor=DD0B78" alt="Starship">
-
-<!-- Development -->
-
-<img src="https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143" alt="Neovim">
-<img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
-<img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/Podman-0D1117?style=for-the-badge&logo=podman&logoColor=892CA0" alt="Podman">
-<img src="https://img.shields.io/badge/Bun-0D1117?style=for-the-badge&logo=bun&logoColor=FBF0DF" alt="Bun">
-<img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
-
-</div>
-
----
-
-## `terminal ecosystem`
-
-| Repository | What it does |
-| :--- | :--- |
-| [**dotfiles**](https://github.com/nihitdev/dotfiles) | Configurations for the tools I use every day |
-| [**terminal-playground**](https://github.com/nihitdev/terminal-playground) | Interactive terminal demos for colors, Unicode, spinners, gradients and more |
-| [**dotfiles-check**](https://github.com/nihitdev/dotfiles-check) | Check shells, CLI tools and your terminal environment |
-| [**arch-after-install**](https://github.com/nihitdev/arch-after-install) | Practical Arch Linux post-install guide |
-| [**linux-one-liners**](https://github.com/nihitdev/linux-one-liners) | Useful Linux commands for everyday terminal work |
-| [**shell-snippets**](https://github.com/nihitdev/shell-snippets) | Fish aliases, functions and shell snippets |
-| [**starship-presets**](https://github.com/nihitdev/starship-presets) | Minimal Starship prompt presets |
-| [**prompt-symbols**](https://github.com/nihitdev/prompt-symbols) | Symbols and glyphs for terminal prompts |
-| [**nerd-font-glyphs**](https://github.com/nihitdev/nerd-font-glyphs) | Curated Nerd Font glyph reference |
-| [**terminal-colors**](https://github.com/nihitdev/terminal-colors) | ANSI, 256-color and truecolor references |
-| [**cli-cheatsheets**](https://github.com/nihitdev/cli-cheatsheets) | Quick CLI and Linux reference sheets |
-
----
-
-## `current setup`
-
-```text
-Arch Linux
-    │
-    ├── Hyprland
-    │     └── Wayland compositor
-    │
-    ├── Caelestia
-    │     └── desktop shell
-    │
-    ├── Kitty
-    │     └── terminal
-    │
-    ├── Fish
-    │     └── interactive shell
-    │
-    ├── Starship
-    │     └── prompt
-    │
-    ├── Neovim / VS Code
-    │     └── editors
-    │
-    └── Podman
-          └── rootless containers
-```
-
----
-
-## `dev stack`
-
-```text
-Languages
-├── Rust
-├── Go
-├── JavaScript
-├── TypeScript
-├── Python
-└── C / C++
-
-JavaScript runtimes
-├── Node.js
-├── Bun
-└── Deno
-
-Package managers
-├── pacman
-├── paru
-├── yay
-├── npm
-├── pnpm
-├── cargo
-└── uv
-
-Build tools
-├── CMake
-├── Meson
-├── Ninja
-├── Make
-└── just
-
-Containers
-└── Podman 🦭
-```
-
----
-
-## `the prompt situation`
-
-```text
-~
-λ
-```
-
-```text
-~/Projects/dotfiles  main
-λ
-```
-
-```text
-~/Projects/terminal-playground  main
-╰─❯
-```
-
-Choosing one prompt symbol permanently is apparently impossible.
-
-```text
-λ → ζ → ╰─❯ → Ω → ∴ → probably back to λ
-```
-
----
-
-## `shellcord`
-
-[**shellcord**](https://github.com/nihitdev/shellcord) brings the terminal aesthetic outside the terminal.
-
-```text
-Discord
-   +
-shell-inspired UI
-   +
-Catppuccin
-   +
-custom CSS
-   =
-shellcord
-```
-
----
-
-## `terminal collection`
-
-```text
-prompt-symbols
-      │
-      ├── symbols & prompt characters
-      │
-terminal-colors
-      │
-      ├── ANSI & truecolor
-      │
-nerd-font-glyphs
-      │
-      ├── Nerd Font references
-      │
-starship-presets
-      │
-      ├── prompt configs
-      │
-shell-snippets
-      │
-      ├── Fish
-      │
-linux-one-liners
-      │
-      ├── Linux commands
-      │
-arch-after-install
-      │
-      ├── Arch Linux setup
-      │
-dotfiles-check
-      │
-      ├── environment checker
-      │
-terminal-playground
-      │
-      └── colors · animations · Unicode
-```
-
----
-
-## `git log`
-
-```text
-commit 7f3a2c1
-Author: nihitdev
-Status: still cooking
-
-    building tools
-    breaking configs
-    fixing configs
-    ricing Arch
-    repeating indefinitely
-```
-
-```text
-$ git status --short
-
- M dotfiles
- M terminal
- M sanity
-?? another-side-project/
-```
-
-<div align="center">
-
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=nihitdev&hide_border=true&background=0D1117&stroke=30363D&ring=A371F7&fire=A371F7&currStreakLabel=A371F7&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E"
-  alt="GitHub streak"
-/>
-
-</div>
-
----
-
-## `currently`
-
-```text
-[✓] Arch Linux
-[✓] Hyprland
-[✓] Caelestia
-[✓] Kitty
-[✓] Fish
-[✓] Starship
-[✓] Podman
-[✓] Rust
-[✓] Go
-[✓] Bun
-[✓] terminal obsession
-[✓] too many glyphs
-[~] still changing the prompt symbol
-```
-
-<div align="center">
-
-```text
-nihit@arch ~/Projects
-λ git status
-
-On branch main
-nothing to commit, still cooking.
-```
-
-### `Arch btw. 🐧`
-
-</div>
+<img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=white">
+<img src="https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=00ADD8">
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6">
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io
