@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="32" viewBox="0 0 960 32" role="img" aria-label="Animated purple circuitry divider">
+  <style>.pulse{stroke-dasharray:35 1000;animation:flow 9s linear infinite}@keyframes flow{from{stroke-dashoffset:80}to{stroke-dashoffset:-1035}}@media(prefers-reduced-motion:reduce){.pulse{animation:none;stroke-dasharray:none;opacity:.3}}</style>
+  <path id="line" d="M0 16H290L302 5H355L367 16H610L622 27H673L685 16H960" fill="none" stroke="#9874b5" stroke-opacity=".25"/>
+  <path class="pulse" d="M0 16H290L302 5H355L367 16H610L622 27H673L685 16H960" fill="none" stroke="#c39afa" stroke-width="1.5"/>
+  <circle cx="367" cy="16" r="2" fill="#ef99d0"/><circle cx="685" cy="16" r="2" fill="#8ddce2"/>
+</svg>

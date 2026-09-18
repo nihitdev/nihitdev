@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="title desc">
+  <title id="title">Rice harder — animated terminal</title>
+  <desc id="desc">nihitdev@ArchNemesis runs sudo pacman -S rice. Dependencies resolve, maximum rice is installed, and the terminal reports: still cooking, still configuring.</desc>
+  <style>
+    text{font-family:'DejaVu Sans Mono',Consolas,monospace;font-size:13px}.command{animation:type 12s steps(22,end) infinite;clip-path:inset(0 0 0 0)}.output{animation:print 12s linear infinite}.cursor{animation:blink 1.2s steps(1) infinite}.bar{animation:install 12s ease-out infinite;transform-origin:29px 142px}
+    @keyframes type{0%{clip-path:inset(0 100% 0 0)}25%,100%{clip-path:inset(0 0 0 0)}}@keyframes print{0%,30%{opacity:0;transform:translateY(4px)}37%,96%{opacity:1;transform:none}100%{opacity:0}}@keyframes blink{50%{opacity:0}}@keyframes install{0%,25%{transform:scaleX(.01)}65%,95%{transform:scaleX(1)}100%{transform:scaleX(.01)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x=".5" y=".5" width="959" height="169" rx="8" fill="#100c18" stroke="#493355"/>
+  <path d="M0 33H960" stroke="#493355"/>
+  <g fill="#ad90c1"><circle cx="19" cy="17" r="3"/><circle cx="31" cy="17" r="3"/><circle cx="43" cy="17" r="3"/></g>
+  <text x="480" y="21" text-anchor="middle" fill="#a38caf" style="font-size:10px">~/.config / one more tweak</text>
+  <text x="29" y="65" fill="#c39afa">nihitdev@ArchNemesis:~$</text>
+  <g transform="translate(223 0)"><text class="command" x="0" y="65" fill="#e4d5ef">sudo pacman -S rice</text></g>
+  <g class="output"><text x="29" y="92" fill="#ad97bd">:: resolving dependencies... maximum-rice [installed]</text><text x="29" y="116" fill="#ef99d0">still cooking. still configuring. rice harder.<tspan class="cursor"> ▌</tspan></text></g>
+  <path d="M29 142H931" stroke="#36243f" stroke-width="2"/><path class="bar" d="M29 142H931" stroke="#c39afa" stroke-width="2"/>
+</svg>

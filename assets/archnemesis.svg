@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">ArchNemesis — nihitdev's animated terminal environment</title>
+  <desc id="desc">An Arch-inspired emblem orbits beside Nihit Sunhare's name. Terminal boot messages load Arch Linux, Hyprland, Fish and maximum rice, followed by a typing cursor. Developer, Linux enthusiast, builder.</desc>
+  <defs>
+    <linearGradient id="border" x2="1" y2="1"><stop stop-color="#c39afa"/><stop offset=".5" stop-color="#40294f"/><stop offset="1" stop-color="#ef99d0"/></linearGradient>
+    <linearGradient id="ink" x2="1" y2=".3"><stop stop-color="#e6d6fb"/><stop offset="1" stop-color="#b68ce5"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#9b50d4" stop-opacity=".16"/><stop offset="1" stop-color="#9b50d4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c39afa" stroke-opacity=".035"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3H4" stroke="#000" stroke-opacity=".16"/></pattern>
+    <clipPath id="bounds"><rect x="1" y="1" width="958" height="398" rx="12"/></clipPath>
+    <style>
+      text{font-family:'DejaVu Sans Mono',Consolas,monospace} .muted{fill:#a38caf}.small{font-size:10px;letter-spacing:1.5px}
+      .orbit{transform-origin:175px 207px;animation:orbit 36s linear infinite}.reverse{animation-direction:reverse;animation-duration:51s}
+      .logo{animation:breathe 5s ease-in-out infinite}.row{animation:boot 16s linear infinite;animation-delay:var(--d)}
+      .caret{animation:blink 1.2s steps(1) infinite}.progress{transform-origin:360px 318px;animation:load 16s cubic-bezier(.16,1,.3,1) infinite}
+      .sweep{animation:sweep 12s linear infinite}.star{animation:star 6s ease-in-out infinite;animation-delay:var(--d)}
+      @keyframes orbit{to{transform:rotate(360deg)}}@keyframes breathe{50%{opacity:.65}}
+      @keyframes boot{0%,4%{opacity:0;transform:translateY(5px)}7%,90%{opacity:1;transform:translateY(0)}97%,100%{opacity:0}}
+      @keyframes blink{50%{opacity:0}}@keyframes load{0%,5%{transform:scaleX(.02)}45%,92%{transform:scaleX(1)}100%{transform:scaleX(.02)}}
+      @keyframes sweep{0%{transform:translateY(-400px);opacity:0}15%,65%{opacity:.15}100%{transform:translateY(400px);opacity:0}}
+      @keyframes star{50%{opacity:.25}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}.sweep{display:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="960" height="400" fill="#09080f"/>
+    <rect width="960" height="400" fill="url(#grid)"/>
+    <ellipse cx="180" cy="210" rx="235" ry="210" fill="url(#glow)"/>
+    <ellipse cx="870" cy="335" rx="220" ry="150" fill="url(#glow)"/>
+    <path d="M0 41H960M0 359H960" stroke="#b58ed4" stroke-opacity=".2"/>
+    <g transform="translate(22 21)"><circle r="3.5" fill="#ef99d0"/><circle cx="13" r="3.5" fill="#e5c49c"/><circle cx="26" r="3.5" fill="#a6d6b0"/></g>
+    <text x="480" y="25" text-anchor="middle" class="muted small">nihitdev@ArchNemesis: ~/profile</text>
+    <text x="931" y="25" text-anchor="end" class="muted small">01 / HOME</text>
+    <g class="orbit"><circle cx="175" cy="207" r="116" fill="none" stroke="#bb83e7" stroke-opacity=".22" stroke-dasharray="3 9"/><circle cx="291" cy="207" r="3" fill="#ef99d0"/></g>
+    <g class="orbit reverse"><circle cx="175" cy="207" r="98" fill="none" stroke="#b896d6" stroke-opacity=".17"/><circle cx="175" cy="109" r="2" fill="#8ddce2"/></g>
+    <path class="logo" d="M175 129 105 279l42-25c-4-25 7-45 28-45s32 20 28 45l42 25-22-47-22-12 17 4-43-95Z" fill="url(#ink)"/>
+    <text x="175" y="336" text-anchor="middle" class="small muted">NOT A DEFAULT CONFIG.</text>
+    <text x="359" y="82" class="small" fill="#c39afa">PERSONAL ENVIRONMENT / NIHIT SUNHARE</text>
+    <text x="356" y="139" font-size="51" font-weight="700" letter-spacing="-2" fill="url(#ink)">ArchNemesis<tspan fill="#ef99d0">.</tspan></text>
+    <text x="360" y="166" font-size="13" fill="#cfbddb">Developer. Linux enthusiast. Builder.</text>
+    <g font-size="12">
+      <g class="row" style="--d:0s"><text x="360" y="207" fill="#a38caf">❯ kernel .............. <tspan fill="#c39afa">ARCH LINUX</tspan></text></g>
+      <g class="row" style="--d:.5s"><text x="360" y="232" fill="#a38caf">❯ compositor .......... <tspan fill="#c39afa">HYPRLAND</tspan></text></g>
+      <g class="row" style="--d:1s"><text x="360" y="257" fill="#a38caf">❯ shell ............... <tspan fill="#c39afa">FISH</tspan></text></g>
+      <g class="row" style="--d:1.5s"><text x="360" y="282" fill="#a38caf">❯ rice ................ <tspan fill="#ef99d0">MAXIMUM</tspan></text></g>
+    </g>
+    <path d="M360 318H891" stroke="#c39afa" stroke-opacity=".12" stroke-width="2"/>
+    <path class="progress" d="M360 318H891" stroke="#c39afa" stroke-width="2"/>
+    <text x="360" y="341" class="muted small">small tools. better workflows.<tspan class="caret" fill="#ef99d0"> ▌</tspan></text>
+    <circle cx="25" cy="380" r="3" fill="#a6d6b0"/><text x="38" y="384" class="small muted">BUILDING IN PUBLIC</text>
+    <text x="933" y="384" text-anchor="end" class="small muted">~/.config is never finished</text>
+    <g fill="#c39afa"><circle class="star" cx="325" cy="102" r="1.5"/><circle class="star" style="--d:-2s" cx="909" cy="202" r="1.5"/><circle class="star" style="--d:-4s" cx="40" cy="280" r="1"/></g>
+    <path class="sweep" d="M0 200H960" stroke="#c39afa" stroke-width="3"/>
+    <rect width="960" height="400" fill="url(#scan)"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="399" rx="12" fill="none" stroke="url(#border)" stroke-opacity=".6"/>
+</svg>
