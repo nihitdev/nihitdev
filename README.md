@@ -1,10 +1,13 @@
+
 <div align="center">
 
-<a href="https://nihit.is-a.dev"><img src="assets/archnemesis.svg" width="960" alt="ArchNemesis — Nihit Sunhare. Animated Arch Linux boot, orbiting emblem, Hyprland, Fish, and maximum rice." /></a>
+<a href="https://nihit.is-a.dev">
+  <img src="assets/archnemesis.svg" width="960" alt="ArchNemesis — Nihit Sunhare. Animated Arch Linux boot, orbiting emblem, Hyprland, Fish, and maximum rice." />
+</a>
 
 **Nihit Sunhare · `nihitdev`**
 
-Developer. Linux enthusiast. Builder.
+Building developer tools, Linux workstations, and interfaces that feel like home.
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=1200&color=C39AFA&center=true&vCenter=true&width=620&height=45&lines=nihitdev%40ArchNemesis%3A~%24+whoami;small+tools.+better+workflows.;probably+editing+a+config+file.;rice+harder." alt="nihitdev@ArchNemesis:~$ — small tools, better workflows, and probably another config file." width="620" />
 
@@ -24,9 +27,11 @@ Developer. Linux enthusiast. Builder.
 nihitdev@ArchNemesis:~$ cat about.txt
 ```
 
-I’m Nihit. I build developer tools, terminal experiments, and Linux setups that make everyday workflows feel a little more personal.
+I'm Nihit. I build developer tools, terminal experiments, and Linux workstations that make everyday workflows feel a little more personal.
 
-My projects tend to start with a small annoyance: a port I need to inspect, a workflow that takes too many keystrokes, or a desktop that still doesn’t feel quite right. Then comes the code. Then, inevitably, another config file.
+Most of my projects start with a small annoyance: a port I need to inspect, a workflow that takes too many keystrokes, or a desktop that still doesn't feel quite right.
+
+Then comes the code. Then the customization. Then, inevitably, another config file.
 
 ```text
                  /\           nihitdev@ArchNemesis
@@ -51,22 +56,48 @@ A suspicious amount of my free time disappears into `~/.config`.
 nihitdev@ArchNemesis:~$ ls ~/Projects
 ```
 
-| Repository | What I’m building | Stack |
+| Repository | What I'm building | Stack |
 | :--- | :--- | :--- |
-| **[kairo](https://github.com/nihitdev/kairo)** | My daily Linux configuration and desktop environment. | Shell · Linux |
+| **[kairo](https://github.com/nihitdev/kairo)** | **Arch, composed.** A safe, interactive Arch Linux workstation installer with Hyprland, modular configurations, and a CLI-first development environment. | Shell · Lua · CSS · Python · GLSL · QML |
+| **[kairo-shell](https://github.com/nihitdev/kairo-shell)** | A custom desktop shell for Hyprland, built with QML and designed around Kairo. | QML |
 | **[shellcord](https://github.com/nihitdev/shellcord)** | A shell-inspired Discord theme with Catppuccin colors and modular customization. | CSS |
 | **[yo-cli](https://github.com/nihitdev/yo-cli)** | A tiny developer companion for better coding sessions. | Rust |
-| **[kairo-shell](https://github.com/nihitdev/kairo-shell)** | A Hyprland desktop shell built for Kairo. | QML |
 | **[portpeek](https://github.com/nihitdev/portpeek)** | Inspect listening ports and the processes behind them. | Shell |
 | **[zari](https://github.com/nihitdev/zari)** | A fast, keyboard-driven terminal file manager for Linux. | C++20 |
 
 [Explore all repositories ↗](https://github.com/nihitdev?tab=repositories)
 
+### Kairo — Arch, composed.
+
+> A safe, interactive workstation installer for Arch Linux, Hyprland, and a CLI-first development setup.
+
+Kairo brings my desktop configurations, developer tools, and installation workflow into one project. It combines a modular Linux environment with an installer designed to make setup predictable, configurable, and easier to maintain.
+
+It's not just about making a desktop look good. It's about understanding how everything fits together.
+
+**Under the hood:**
+
+| Language | Repository share |
+| :--- | ---: |
+| Shell | 31.0% |
+| Lua | 27.1% |
+| CSS | 20.3% |
+| Python | 9.4% |
+| GLSL | 4.3% |
+| QML | 3.4% |
+| Other | 4.5% |
+
+*Language distribution from GitHub Linguist at the time of this update.*
+
+**[Explore Kairo →](https://github.com/nihitdev/kairo)**
+
 ### A website that boots like a desktop
 
 **[Enter ArchNemesis →](https://nihit.is-a.dev)**
 
-My personal portfolio takes the same obsession into the browser: a terminal boot sequence, Hyprland-inspired windows, interactive projects, and a simulated shell you can actually type into. Purple, a little excessive, and very much my kind of environment.
+My personal portfolio takes the same obsession into the browser: a terminal boot sequence, Hyprland-inspired windows, interactive projects, and a simulated shell you can actually type into.
+
+Purple, a little excessive, and very much my kind of environment.
 
 Try `help`, `neofetch`, or `sudo pacman -S rice` in its terminal.
 
@@ -91,12 +122,12 @@ nihitdev@ArchNemesis:~$ cat ~/.config/toolchain
 
 | Layer | Tools I reach for |
 | :--- | :--- |
-| Languages | Rust · Go · C · C++ · TypeScript · JavaScript · Python |
-| Desktop | Arch Linux · Linux · Hyprland · Wayland |
-| Shell & terminal | Fish · Bash · Kitty · Starship |
+| Languages | Rust · Go · C · C++ · TypeScript · JavaScript · Python · Lua · Shell |
+| Desktop | Arch Linux · Hyprland · Wayland · Kairo Shell |
+| Shell & terminal | Fish · Bash · Zsh · Kitty · Starship |
 | Development | Neovim · VS Code · Git · GitHub · GitHub Actions |
 | Runtimes & containers | Bun · Node.js · Deno · Podman |
-| Configuration & UI | QML · CSS · YAML · TOML |
+| Configuration & UI | QML · CSS · GLSL · YAML · TOML |
 | Build tools | Cargo · CMake · Meson · Ninja · Make · just |
 | Package managers | pacman · paru · yay · pnpm · cargo · uv |
 
@@ -108,11 +139,17 @@ nihitdev@ArchNemesis:~$ cat ~/.config/toolchain
 keyboard_first = true
 small_useful_tools = true
 understand_the_config = true
+automate_the_repetitive = true
 
 [desktop]
 make_it_personal = true
 rice = maximum
 finished = probably_never
+
+[development]
+build_what_you_use = true
+learn_by_building = true
+keep_improving = true
 ```
 
 The goal is simple: understand the tools, keep the workflow fast, and make the machine feel like home.
@@ -144,4 +181,7 @@ Have a project in mind, a question, or a terminal setup worth sharing?
 
 **Built on Linux. Probably from a terminal.**
 
+`[ nihitdev@ArchNemesis ~ ]$ exit`
+
 </div>
+
