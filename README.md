@@ -123,9 +123,9 @@ nihitdev@ArchNemesis:~$ cat ~/.config/toolchain
 | Layer | Tools I reach for |
 | :--- | :--- |
 | Languages | Rust · Go · C · C++ · TypeScript · JavaScript · Python · Lua · Shell |
-| Desktop | Arch Linux · Hyprland · Wayland · Kairo Shell |
+| Desktop | Arch Linux · Hyprland · Wayland  |
 | Shell & terminal | Fish · Bash · Zsh · Kitty · Starship |
-| Development | Neovim · VS Code · Git · GitHub · GitHub Actions |
+| Development | Neovim · Git · GitHub · GitHub Actions |
 | Runtimes & containers | Bun · Node.js · Deno · Podman |
 | Configuration & UI | QML · CSS · GLSL · YAML · TOML |
 | Build tools | Cargo · CMake · Meson · Ninja · Make · just |
