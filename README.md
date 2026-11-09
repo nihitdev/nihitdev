@@ -1,143 +1,90 @@
-
 <div align="center">
 
 <a href="https://nihit.is-a.dev">
-  <img src="assets/archnemesis.svg" width="960" alt="ArchNemesis — Nihit Sunhare. Animated Arch Linux boot, orbiting emblem, Hyprland, Fish, and maximum rice." />
+  <img src="assets/archnemesis.svg" width="960" alt="Nihit Sunhare — developer tools, Linux desktops, and a little too much time in the terminal." />
 </a>
 
-**Nihit Sunhare · `nihitdev`**
+**I build the tools I want to use, then make them feel like mine.**
 
-Building developer tools, Linux workstations, and interfaces that feel like home.
+Developer tools · Linux desktops · Terminal experiments
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=1200&color=C39AFA&center=true&vCenter=true&width=620&height=45&lines=nihitdev%40ArchNemesis%3A~%24+whoami;small+tools.+better+workflows.;probably+editing+a+config+file.;rice+harder." alt="nihitdev@ArchNemesis:~$ — small tools, better workflows, and probably another config file." width="620" />
-
-[![Portfolio](https://img.shields.io/badge/BOOT_PORTFOLIO-nihit.is--a.dev-C39AFA?style=for-the-badge&labelColor=12101C)](https://nihit.is-a.dev)
-[![Repositories](https://img.shields.io/badge/SOURCE-OPEN-EF99D0?style=for-the-badge&labelColor=12101C)](https://github.com/nihitdev?tab=repositories)
-[![Email](https://img.shields.io/badge/CONTACT-PROTON-8DDCE2?style=for-the-badge&labelColor=12101C)](mailto:nihitdev@proton.me)
-
-**[01 / identity](#01--identity) · [02 / projects](#02--projects) · [03 / stack](#03--stack) · [04 / connect](#04--connect)**
+[Portfolio ↗](https://nihit.is-a.dev) &nbsp; / &nbsp; [Source code](https://github.com/nihitdev?tab=repositories) &nbsp; / &nbsp; [Say hello](mailto:nihitdev@proton.me)
 
 </div>
 
-<img src="assets/circuit-divider.svg" width="960" alt="" />
+## Hey, I'm Nihit.
 
-## 01 / identity
+A port I need to inspect. A workflow with too many steps. A desktop that could feel a little more like home. That's usually where my projects begin.
 
-```console
-nihitdev@ArchNemesis:~$ cat about.txt
-```
-
-I'm Nihit. I build developer tools, terminal experiments, and Linux workstations that make everyday workflows feel a little more personal.
-
-Most of my projects start with a small annoyance: a port I need to inspect, a workflow that takes too many keystrokes, or a desktop that still doesn't feel quite right.
-
-Then comes the code. Then the customization. Then, inevitably, another config file.
+I work across command-line tools, desktop interfaces, and Linux configuration. I like keyboard-driven workflows, software I can take apart, and small details that make everyday tools nicer to use.
 
 ```text
-                 /\           nihitdev@ArchNemesis
-                /  \          ────────────────────────
-               / /\ \         OS        Arch Linux
-              / /  \ \        WM        Hyprland
-             /_/    \_\       SHELL     Fish
-                              TERMINAL  Kitty
-                              PROMPT    Starship
-                              EDITORS   Neovim · VS Code
-                              CONTAINER Podman
-                              RICE      maximum
+nihitdev@ArchNemesis
+│
+├── system     Arch Linux / Hyprland / Wayland
+├── terminal   Fish / Kitty / Starship
+├── editor     Neovim / VS Code
+└── off hours  probably somewhere in ~/.config
 ```
-
-A suspicious amount of my free time disappears into `~/.config`.
 
 <img src="assets/circuit-divider.svg" width="960" alt="" />
 
-## 02 / projects
+## Things I'm building
 
-```console
-nihitdev@ArchNemesis:~$ ls ~/Projects
-```
+### [Kairo](https://github.com/nihitdev/kairo) · Arch, composed.
 
-| Repository | What I'm building | Stack |
+My Arch Linux environment, brought together in one place: an interactive workstation installer, modular configurations, and a Hyprland desktop built around a CLI-first development workflow.
+
+**Shell · Lua · Python · CSS · GLSL · QML**
+
+[Explore Kairo →](https://github.com/nihitdev/kairo) &nbsp; / &nbsp; [Meet kairo-shell →](https://github.com/nihitdev/kairo-shell), its custom QML desktop shell
+
+### [ArchNemesis](https://nihit.is-a.dev) · A desktop in your browser.
+
+My portfolio opens with a terminal boot sequence and unfolds into Hyprland-inspired windows, projects, and a simulated shell you can type into. The same obsession with my desktop, carried into the browser.
+
+[Boot the portfolio →](https://nihit.is-a.dev) &nbsp; / &nbsp; Try `help`, `neofetch`, or `sudo pacman -S rice`.
+
+### Smaller tools, same itch
+
+| Project | What it's for | Built with |
 | :--- | :--- | :--- |
-| **[kairo](https://github.com/nihitdev/kairo)** | **Arch, composed.** A safe, interactive Arch Linux workstation installer with Hyprland, modular configurations, and a CLI-first development environment. | Shell · Lua · CSS · Python · GLSL · QML |
-| **[kairo-shell](https://github.com/nihitdev/kairo-shell)** | A custom desktop shell for Hyprland, built with QML and designed around Kairo. | QML |
-| **[shellcord](https://github.com/nihitdev/shellcord)** | A shell-inspired Discord theme with Catppuccin colors and modular customization. | CSS |
-| **[yo-cli](https://github.com/nihitdev/yo-cli)** | A tiny developer companion for better coding sessions. | Rust |
-| **[portpeek](https://github.com/nihitdev/portpeek)** | Inspect listening ports and the processes behind them. | Shell |
-| **[zari](https://github.com/nihitdev/zari)** | A fast, keyboard-driven terminal file manager for Linux. | C++20 |
+| [**portpeek**](https://github.com/nihitdev/portpeek) | Find what's listening on a port and the process behind it. | Shell |
+| [**zari**](https://github.com/nihitdev/zari) | Navigate files from the terminal with a keyboard-driven workflow. | C++20 |
+| [**yo-cli**](https://github.com/nihitdev/yo-cli) | A small CLI companion for coding sessions. | Rust |
+| [**shellcord**](https://github.com/nihitdev/shellcord) | Give Discord a shell-inspired look with Catppuccin colors. | CSS |
 
-[Explore all repositories ↗](https://github.com/nihitdev?tab=repositories)
-
-### Kairo — Arch, composed.
-
-> A safe, interactive workstation installer for Arch Linux, Hyprland, and a CLI-first development setup.
-
-Kairo brings my desktop configurations, developer tools, and installation workflow into one project. It combines a modular Linux environment with an installer designed to make setup predictable, configurable, and easier to maintain.
-
-It's not just about making a desktop look good. It's about understanding how everything fits together.
-
-**Under the hood:**
-
-| Language | Repository share |
-| :--- | ---: |
-| Shell | 31.0% |
-| Lua | 27.1% |
-| CSS | 20.3% |
-| Python | 9.4% |
-| GLSL | 4.3% |
-| QML | 3.4% |
-| Other | 4.5% |
-
-*Language distribution from GitHub Linguist at the time of this update.*
-
-**[Explore Kairo →](https://github.com/nihitdev/kairo)**
-
-### A website that boots like a desktop
-
-**[Enter ArchNemesis →](https://nihit.is-a.dev)**
-
-My personal portfolio takes the same obsession into the browser: a terminal boot sequence, Hyprland-inspired windows, interactive projects, and a simulated shell you can actually type into.
-
-Purple, a little excessive, and very much my kind of environment.
-
-Try `help`, `neofetch`, or `sudo pacman -S rice` in its terminal.
+[Browse all repositories ↗](https://github.com/nihitdev?tab=repositories)
 
 <img src="assets/circuit-divider.svg" width="960" alt="" />
 
-## 03 / stack
+## At my workbench
 
-```console
-nihitdev@ArchNemesis:~$ cat ~/.config/toolchain
-```
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Arch_Linux-12101C?style=for-the-badge&logo=archlinux&logoColor=8DDCE2" alt="Arch Linux" />
-<img src="https://img.shields.io/badge/Hyprland-12101C?style=for-the-badge&logo=hyprland&logoColor=C39AFA" alt="Hyprland" />
-<img src="https://img.shields.io/badge/Rust-12101C?style=for-the-badge&logo=rust&logoColor=EF99D0" alt="Rust" />
-<img src="https://img.shields.io/badge/Go-12101C?style=for-the-badge&logo=go&logoColor=8DDCE2" alt="Go" />
-<img src="https://img.shields.io/badge/TypeScript-12101C?style=for-the-badge&logo=typescript&logoColor=C39AFA" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Neovim-12101C?style=for-the-badge&logo=neovim&logoColor=EF99D0" alt="Neovim" />
-
-</div>
-
-| Layer | Tools I reach for |
+| What I'm working on | What I reach for |
 | :--- | :--- |
-| Languages | Rust · Go · C · C++ · TypeScript · JavaScript · Python · Lua · Shell |
-| Desktop | Arch Linux · Hyprland · Wayland  |
-| Shell & terminal | Fish · Bash · Zsh · Kitty · Starship |
-| Development | Neovim · Git · GitHub · GitHub Actions |
-| Runtimes & containers | Bun · Node.js · Deno · Podman |
-| Configuration & UI | QML · CSS · GLSL · YAML · TOML |
-| Build tools | Cargo · CMake · Meson · Ninja · Make · just |
-| Package managers | pacman · paru · yay · pnpm · cargo · uv |
+| Tools & systems | Rust · Go · C · C++ · Python · Shell |
+| Interfaces & configuration | TypeScript · JavaScript · QML · Lua · CSS · GLSL |
+| Daily environment | Arch Linux · Hyprland · Neovim · Git · Podman |
 
 <details>
-<summary><strong><code>cat philosophy.conf</code></strong></summary>
+<summary>The rest of the toolbox</summary>
+
+- **Shells & terminals:** Fish, Bash, Zsh, Kitty, Starship
+- **Runtimes:** Bun, Node.js, Deno
+- **Build tools:** Cargo, CMake, Meson, Ninja, Make, just
+- **Packages:** pacman, paru, yay, pnpm, cargo, uv
+- **Configuration:** YAML, TOML
+- **Automation:** GitHub Actions
+
+</details>
+
+<details>
+<summary><code>cat philosophy.conf</code></summary>
 
 ```ini
 [workflow]
 keyboard_first = true
-small_useful_tools = true
+build_what_you_use = true
 understand_the_config = true
 automate_the_repetitive = true
 
@@ -145,43 +92,22 @@ automate_the_repetitive = true
 make_it_personal = true
 rice = maximum
 finished = probably_never
-
-[development]
-build_what_you_use = true
-learn_by_building = true
-keep_improving = true
 ```
-
-The goal is simple: understand the tools, keep the workflow fast, and make the machine feel like home.
 
 </details>
 
 <img src="assets/circuit-divider.svg" width="960" alt="" />
 
-## 04 / connect
+## Leave a message
 
-```console
-nihitdev@ArchNemesis:~$ ./say-hello
-```
+Have a tool idea, a Linux question, or a setup worth sharing? I'd like to hear about it.
 
-Have a project in mind, a question, or a terminal setup worth sharing?
-
-| Channel | Find me |
-| :--- | :--- |
-| Portfolio | [nihit.is-a.dev](https://nihit.is-a.dev) |
-| Email | [nihitdev@proton.me](mailto:nihitdev@proton.me) |
-| Discord | `nihitdev` |
-| Discussions | [github.com/nihitdev/chat/discussions](https://github.com/nihitdev/chat/discussions) |
-
-<img src="assets/circuit-divider.svg" width="960" alt="" />
+**[Email](mailto:nihitdev@proton.me)** · **[GitHub Discussions](https://github.com/nihitdev/chat/discussions)** · **Discord:** `nihitdev`
 
 <div align="center">
 
-<img src="assets/rice-terminal.svg" width="960" alt="nihitdev@ArchNemesis installs maximum rice. Still cooking. Still configuring. Rice harder." />
+<img src="assets/rice-terminal.svg" width="960" alt="A playful terminal installs maximum rice: still cooking, still configuring." />
 
-**Built on Linux. Probably from a terminal.**
-
-`[ nihitdev@ArchNemesis ~ ]$ exit`
+<sub>Built on Linux. Probably from a terminal.</sub>
 
 </div>
-

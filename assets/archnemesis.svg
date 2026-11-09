@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
-  <title id="title">ArchNemesis — nihitdev's animated terminal environment</title>
+  <title id="title">Nihit Sunhare — developer and Linux enthusiast</title>
   <desc id="desc">An Arch-inspired emblem orbits beside Nihit Sunhare's name. Terminal boot messages load Arch Linux, Hyprland, Fish and maximum rice, followed by a typing cursor. Developer, Linux enthusiast, builder.</desc>
   <defs>
     <linearGradient id="border" x2="1" y2="1"><stop stop-color="#c39afa"/><stop offset=".5" stop-color="#40294f"/><stop offset="1" stop-color="#ef99d0"/></linearGradient>
@@ -35,11 +35,11 @@
     <g class="orbit reverse"><circle cx="175" cy="207" r="98" fill="none" stroke="#b896d6" stroke-opacity=".17"/><circle cx="175" cy="109" r="2" fill="#8ddce2"/></g>
     <path class="logo" d="M175 129 105 279l42-25c-4-25 7-45 28-45s32 20 28 45l42 25-22-47-22-12 17 4-43-95Z" fill="url(#ink)"/>
     <text x="175" y="336" text-anchor="middle" class="small muted">NOT A DEFAULT CONFIG.</text>
-    <text x="359" y="82" class="small" fill="#c39afa">PERSONAL ENVIRONMENT / NIHIT SUNHARE</text>
-    <text x="356" y="139" font-size="51" font-weight="700" letter-spacing="-2" fill="url(#ink)">ArchNemesis<tspan fill="#ef99d0">.</tspan></text>
-    <text x="360" y="166" font-size="13" fill="#cfbddb">Developer. Linux enthusiast. Builder.</text>
+    <text x="359" y="82" class="small" fill="#c39afa">NIHITDEV / PERSONAL ENVIRONMENT</text>
+    <text x="356" y="139" font-size="45" font-weight="700" letter-spacing="-2" fill="url(#ink)">Nihit Sunhare<tspan fill="#ef99d0">.</tspan></text>
+    <text x="360" y="166" font-size="13" fill="#cfbddb">Developer tools. Linux desktops. Made personal.</text>
     <g font-size="12">
-      <g class="row" style="--d:0s"><text x="360" y="207" fill="#a38caf">❯ kernel .............. <tspan fill="#c39afa">ARCH LINUX</tspan></text></g>
+      <g class="row" style="--d:0s"><text x="360" y="207" fill="#a38caf">❯ distro .............. <tspan fill="#c39afa">ARCH LINUX</tspan></text></g>
       <g class="row" style="--d:.5s"><text x="360" y="232" fill="#a38caf">❯ compositor .......... <tspan fill="#c39afa">HYPRLAND</tspan></text></g>
       <g class="row" style="--d:1s"><text x="360" y="257" fill="#a38caf">❯ shell ............... <tspan fill="#c39afa">FISH</tspan></text></g>
       <g class="row" style="--d:1.5s"><text x="360" y="282" fill="#a38caf">❯ rice ................ <tspan fill="#ef99d0">MAXIMUM</tspan></text></g>
