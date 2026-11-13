@@ -23,7 +23,7 @@ nihitdev@ArchNemesis
 │
 ├── system     Arch Linux / Hyprland / Wayland
 ├── terminal   Fish / Kitty / Starship
-├── editor     Neovim / VS Code
+├── editor     Neovim
 └── off hours  probably somewhere in ~/.config
 ```
 
@@ -102,7 +102,9 @@ finished = probably_never
 
 Have a tool idea, a Linux question, or a setup worth sharing? I'd like to hear about it.
 
-**[Email](mailto:nihitdev@proton.me)** · **[GitHub Discussions](https://github.com/nihitdev/chat/discussions)** · **Discord:** `nihitdev`
+**[Email](mailto:nihitdev@proton.me)** · **[GitHub Discussions](https://github.com/nihitdev/chat/discussions)** · **Discord:** `nihitsolos`
+
+**[Instagram · nihit.dev](https://www.instagram.com/nihit.dev/)** · **[YouTube · nihitfx](https://www.youtube.com/@nihitfx)**
 
 <div align="center">
 
